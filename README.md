@@ -2,11 +2,11 @@
 Particles layout that can be set on body or at any dom-element.
 
 ## Installation
-Type in terminal(console) git clone ```javascript
+Type in terminal(console) git clone ```
 https://github.com/VladislavNahaba/particle-image.git```  
-**Install:** ```javascript
+**Install:** ```
 npm install```
-**Run:** ```javascript
+**Run:** ```
 npm run start```
 
 # Docs
