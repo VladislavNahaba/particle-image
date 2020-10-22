@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
 ```
 
 # Demo View
-![](image.gif)
+![](https://i.ibb.co/R2ZnNLc/online-video-cutter-com.gif)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
