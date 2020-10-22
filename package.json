@@ -1,0 +1,57 @@
+{
+  "name": "particle-images",
+  "version": "1.0.0",
+  "description": "particle images effect",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavNahaba/particle-image.git"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "keywords": [
+    "js",
+    "canvas",
+    "particles",
+    "images",
+    "animations",
+    "effect"
+  ],
+  "author": "Nahaba Vladislav <nahabavladislav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladislavNahaba/particle-image/issues"
+  },
+  "homepage": "https://github.com/VladislavNahaba/particle-image#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-private-methods": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.1.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "express": "^4.17.1",
+    "normalize.css": "^8.0.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
